@@ -4,29 +4,32 @@
         <!-- Document information -->
         <meta charset="UTF-8">
         <title>Styling The HTML Website</title>
+        <link href="style.css" rel="stylesheet">
     </head>
     <body>
         <!-- Document Content -->
         <header>
-            <h1>BRUNO FORTUNATO</h1>
+            <h1 class="white">BRUNO FORTUNATO</h1>
             <nav>
                 <ul>
-                    <li>
-                        <a href="index.html">HOME</a>
-                        <a href="notes.html">NOTES</a>
-                    </li>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="notes.html">NOTES</a></li>
                 </ul>
             </nav>
         </header>
-        <main>
-            <img src="skating_jean_drapeau.jpg" width="300" Alt="Selfie in Parc Jean Drapeau, Montreal, Canada.">
+        <main class="container">
+            <img id="img-shadow" src="skating_jean_drapeau.jpg" width="300" Alt="Selfie in Parc Jean Drapeau, Montreal, Canada.">
             <article>
                 <h2>Hobbies</h2>
                     <p>When it comes to hobbies, there are 2 things I love to do:</p>
-                    <ol>
-                        <li>Skating - Whenever I have free time I go skating, even if it is snowing or freezing. There is a good place to skate called Sens Rink of Dreams where I usually go. This is located in downtown Ottawa, near the Rideau Center Mall, 26 minutes from my home.</li>
-                        <li>Hanging out - As you can see from the photo, I really like cold weather and this is not a deterrent for me to stop doing what I like. And another thing that I also like to do in my free time is to leave the house, to go and visit new places, even if it is just a long walk in the neighborhood.</li>
-                    </ol>
+                    <ul>
+                        <li>Skating;</li>
+                        <li>Hanging out;</li>
+                        <li>Listen to music;</li>
+                        <li>Playing online games;</li>
+                        <li>Watching Tv series;</li>
+                        <li>Cooking;</li>
+                    </ul>
             </article> 
   
             <article>
@@ -35,7 +38,7 @@
                 <p>Donec et semper lorem, et dictum felis. Maecenas vel aliquet nisl, nec ullamcorper sapien. In iaculis orci metus, vel aliquam velit sodales et. Duis et dignissim lorem. Pellentesque elementum massa nec convallis pulvinar. </p>
             </article> 
         </main>
-        <footer>
+        <footer class="white">
             <small>&copy; Copyright 2021, BMF Corporation. All Rights Reserved</small>
         </footer>
     </body>
